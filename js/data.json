@@ -1,0 +1,38 @@
+[
+    {"name":"reem",
+      "age":25,
+        "password":"123"},
+
+
+      {"name":"fatma",
+      "age":25,
+      "password":"1234"},
+
+      {"name":"mayar",
+      "age":25,
+      "password":"823"},
+
+
+      {"name":"mohamed",
+      "age":25,
+      "password":"1123"},
+
+      {"name":"ahmed",
+      "age":25,
+      "password":"1243"},
+
+
+      {"name":"eslam",
+      "age":25,
+      "password":"1723"},
+
+      {"name":"mostafa",
+      "age":25,
+      "password":"1223"},
+
+      {"name":"zyad",
+      "age":25
+      ,"password":"1283"}
+
+      
+]

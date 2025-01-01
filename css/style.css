@@ -1,0 +1,137 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Karla:wght@400;700&family=Montserrat:wght@500;700&family=Open+Sans:wght@400;600;700&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+.section{background-image: url(../img/johann-siemens-EPy0gBJzzZU-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;    
+    flex-direction: column;
+    overflow: hidden;
+}
+.login {position: relative
+    ;padding: 60px;
+background: rgba(255, 255, 255, 0.25);
+backdrop-filter: blur(15px) ;
+border-bottom: 1px solid rgba(225, 255, 255, 0.25);}
+.login h2 
+{color: #8f2c24;
+position: relative;
+margin-bottom: 10px;
+font-size: 2.5em;
+font-weight: 600;
+text-align: center;}
+#password{
+    display: flex;align-items: center;
+}
+.aya{       border: none;cursor: pointer;
+    background: transparent;
+    margin-left: -21px;
+    position: relative;
+    margin-bottom: 26px
+};
+.login .input {
+    position: relative;
+}
+.login .input input{
+    position: relative;
+    outline: none;
+    padding: 15px 15px;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: none;
+}
+.login .input input ::placeholder{
+    color: #8f2c24;
+}
+.login .input  .bton{color: #fff;background: #8f2c24;outline: none;font-weight: 500;position: relative;
+    font-size: 1.25em;
+    border: none;cursor: pointer;
+    transition: 0.5s;}
+.login .input .bton:hover{background: #d64c42;}
+.login .group a {font-size: 1.25em;
+color: #8f2c24;
+font-weight: 500;
+text-decoration: none;}
+.login .group a:nth-child(2){
+    text-decoration: underline;
+}
+
+.icon i {
+    margin: 10px;
+    font-size: 30px;
+} 
+.icon i:hover {
+ color: #fb7b00;
+} 
+.hide{
+    color: red;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+.hidee{display: none;}
+.welcompage{
+    background-color: #f2f2f2;
+    display: flex;
+ 
+    height: 100vh;
+    align-content: center;
+    align-items: center;
+;}
+.d{
+width: 100%;}
+.welcome{
+    padding: 32px;
+    background-color: #fb7b00;
+    color: aliceblue;
+  
+    text-align: center;}
+ h2{font-weight: 700;}
+ .con {
+ 
+    background-color: white;
+    padding: 20px;
+  
+}
+
+.cen {
+    text-align: center;
+}
+form.namecon {
+    width: 100%;
+}
+.bn{
+background-color: transparent;
+padding: 10px;
+border-radius: 2px;
+border: 1px solid black;
+color: rgb(19, 17, 17);
+
+}
+.bn:hover{
+    color:gray;
+    border:none
+   
+    
+    }
+.namecon ,textarea{
+    width: 100%;
+    height: 41px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+textarea{
+    height: 105px;
+  
+}
+
