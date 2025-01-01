@@ -49,6 +49,7 @@ function initializeEventListeners() {
   });
 
   aye.addEventListener("click", function () {
+   event.preventDefault(); 
     let pas = document.getElementById("p");
     if (pas.type === "password") {
       pas.type = "text";
